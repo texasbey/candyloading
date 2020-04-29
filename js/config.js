@@ -85,10 +85,13 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "4NJlUribp3c", name: "Desiigner - Panda"},
+	{youtube: "jJITFoqN_ic", name: "MRF - Derindeyim"},
+	{youtube: "aSRlSZ9iB8M", name: "Rota - Son Kez"},
+	{youtube: "_Iq_uEZuqGg", name: "Gazapizm - Kalbim Çukurda ft. Cem Adrian"},
 	{youtube: "Mc2-YM9Bhu4", name: "Serhat Durmus - Hislerim (ft. Zerrin)"},
 	{youtube: "eYy6fzI09IQ", name: "Mert KIYAK - Gel (feat. Çağrı Kaymak)"},
-	{youtube: "2XUs3lDOBlM", name: "Unutulacak Dünler"}
+	{youtube: "2XUs3lDOBlM", name: "Unutulacak Dünler - Gazapizm"}
 ];
 
 /*Random music order?*/
@@ -103,9 +106,9 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Sunucunun tadını çıkarın",
-"Bize katıldığınız için teşekkürler!",
-"Sunucu sizin en iyi şekilde oynamanız için yapıldığını biliyor muydun?"
+"Sunucuya hoşgeldin.",
+"Eğer oyun yüklenirken timeout verirse tekrardan giriş yap!",
+"Sabrın için teşekkür ederiz. "
 ];
 
 /*Random message order?*/
